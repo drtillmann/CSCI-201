@@ -1,0 +1,455 @@
+gcc -c Student.cpp
+
+> gcc -c studentList.cpp
+
+> g++ myProgram.cpp Student.o studentList.o
+
+> cat data.txt
+
+TILLMANN,DANIEL SC999999 80 80 80 80 80 80 80 80 80 80 100 90 90 90 90 
+TILLMANN,SARAH SC888888 90 90 90 90 90 90 90 90 90 90 100 85 85 85 85 
+
+> cat data2.txt
+
+HARRISON,FORD SC111111 70 70 70 70 70 70 70 70 70 70 80 60 60 60 60
+
+COOPER,SHELDON SC000001 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+
+> cat empty.txt
+
+> a.out
+
+
+1. Load a data file containing information about the students and the scores.
+2. Display the stored data(raw data).
+3. Process the records currently loaded.
+4. Print the processed grades to a file.
+5. Search for a particular student, specified by name or ID.
+6. Add a student to the classlist.
+7. Change a students test scores.
+8. Save and exit.
+0. Exit.
+Enter a menu option here: empty.txt
+
+Exiting the program.
+
+> a.out
+
+
+1. Load a data file containing information about the students and the scores.
+2. Display the stored data(raw data).
+3. Process the records currently loaded.
+4. Print the processed grades to a file.
+5. Search for a particular student, specified by name or ID.
+6. Add a student to the classlist.
+7. Change a students test scores.
+8. Save and exit.
+0. Exit.
+Enter a menu option here: 1
+
+Enter a file name to open: empty.txt
+<********** The file is empty **********>
+
+1. Load a data file containing information about the students and the scores.
+2. Display the stored data(raw data).
+3. Process the records currently loaded.
+4. Print the processed grades to a file.
+5. Search for a particular student, specified by name or ID.
+6. Add a student to the classlist.
+7. Change a students test scores.
+8. Save and exit.
+0. Exit.
+Enter a menu option here: 1
+
+Enter a file name to open: data.txt
+File read successfully!
+
+1. Load a data file containing information about the students and the scores.
+2. Display the stored data(raw data).
+3. Process the records currently loaded.
+4. Print the processed grades to a file.
+5. Search for a particular student, specified by name or ID.
+6. Add a student to the classlist.
+7. Change a students test scores.
+8. Save and exit.
+0. Exit.
+Enter a menu option here: 2
+
+TILLMANN,DANIEL SC999999 80 80 80 80 80 80 80 80 80 80 100 90 90 90 90 0 0  
+
+TILLMANN,SARAH SC888888 90 90 90 90 90 90 90 90 90 90 100 85 85 85 85 0 0  
+
+
+1. Load a data file containing information about the students and the scores.
+2. Display the stored data(raw data).
+3. Process the records currently loaded.
+4. Print the processed grades to a file.
+5. Search for a particular student, specified by name or ID.
+6. Add a student to the classlist.
+7. Change a students test scores.
+8. Save and exit.
+0. Exit.
+Enter a menu option here: 3
+
+Student grades processed.
+
+1. Load a data file containing information about the students and the scores.
+2. Display the stored data(raw data).
+3. Process the records currently loaded.
+4. Print the processed grades to a file.
+5. Search for a particular student, specified by name or ID.
+6. Add a student to the classlist.
+7. Change a students test scores.
+8. Save and exit.
+0. Exit.
+Enter a menu option here: 2
+
+TILLMANN,DANIEL SC999999 80 80 80 80 80 80 80 80 80 80 100 90 90 90 90 41 45 C
+
+TILLMANN,SARAH SC888888 90 90 90 90 90 90 90 90 90 90 100 85 85 85 85 45.5 42.5 B
+
+
+1. Load a data file containing information about the students and the scores.
+2. Display the stored data(raw data).
+3. Process the records currently loaded.
+4. Print the processed grades to a file.
+5. Search for a particular student, specified by name or ID.
+6. Add a student to the classlist.
+7. Change a students test scores.
+8. Save and exit.
+0. Exit.
+Enter a menu option here: 1
+
+Enter a file name to open: data2.txt
+File read successfully!
+
+1. Load a data file containing information about the students and the scores.
+2. Display the stored data(raw data).
+3. Process the records currently loaded.
+4. Print the processed grades to a file.
+5. Search for a particular student, specified by name or ID.
+6. Add a student to the classlist.
+7. Change a students test scores.
+8. Save and exit.
+0. Exit.
+Enter a menu option here: 2
+
+TILLMANN,DANIEL SC999999 80 80 80 80 80 80 80 80 80 80 100 90 90 90 90 41 45 C
+
+TILLMANN,SARAH SC888888 90 90 90 90 90 90 90 90 90 90 100 85 85 85 85 45.5 42.5 B
+
+HARRISON,FORD SC111111 70 70 70 70 70 70 70 70 70 70 80 60 60 60 60 0 0  
+
+COOPER,SHELDON SC000001 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 0 0  
+
+
+1. Load a data file containing information about the students and the scores.
+2. Display the stored data(raw data).
+3. Process the records currently loaded.
+4. Print the processed grades to a file.
+5. Search for a particular student, specified by name or ID.
+6. Add a student to the classlist.
+7. Change a students test scores.
+8. Save and exit.
+0. Exit.
+Enter a menu option here: 3
+
+Student grades processed.
+
+1. Load a data file containing information about the students and the scores.
+2. Display the stored data(raw data).
+3. Process the records currently loaded.
+4. Print the processed grades to a file.
+5. Search for a particular student, specified by name or ID.
+6. Add a student to the classlist.
+7. Change a students test scores.
+8. Save and exit.
+0. Exit.
+Enter a menu option here: 2
+
+TILLMANN,DANIEL SC999999 80 80 80 80 80 80 80 80 80 80 100 90 90 90 90 41 45 B
+
+TILLMANN,SARAH SC888888 90 90 90 90 90 90 90 90 90 90 100 85 85 85 85 45.5 42.5 B
+
+HARRISON,FORD SC111111 70 70 70 70 70 70 70 70 70 70 80 60 60 60 60 35.5 30 D
+
+COOPER,SHELDON SC000001 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 50 50 A
+
+
+1. Load a data file containing information about the students and the scores.
+2. Display the stored data(raw data).
+3. Process the records currently loaded.
+4. Print the processed grades to a file.
+5. Search for a particular student, specified by name or ID.
+6. Add a student to the classlist.
+7. Change a students test scores.
+8. Save and exit.
+0. Exit.
+Enter a menu option here: 6
+
+Enter Student Name, ID, 10 Homework scores, Participation score, 3 Midterm Exam scores, Final Exam score: 
+SMITH,JANE SC222222 30 40 50 60 70 80 90 50 32 10 90 85 90 60 40
+
+1. Load a data file containing information about the students and the scores.
+2. Display the stored data(raw data).
+3. Process the records currently loaded.
+4. Print the processed grades to a file.
+5. Search for a particular student, specified by name or ID.
+6. Add a student to the classlist.
+7. Change a students test scores.
+8. Save and exit.
+0. Exit.
+Enter a menu option here: 2
+
+TILLMANN,DANIEL SC999999 80 80 80 80 80 80 80 80 80 80 100 90 90 90 90 41 45 B
+
+TILLMANN,SARAH SC888888 90 90 90 90 90 90 90 90 90 90 100 85 85 85 85 45.5 42.5 B
+
+HARRISON,FORD SC111111 70 70 70 70 70 70 70 70 70 70 80 60 60 60 60 35.5 30 D
+
+COOPER,SHELDON SC000001 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 50 50 A
+
+SMITH,JANE SC222222 30 40 50 60 70 80 90 50 32 10 90 85 90 60 40 0 0  
+
+
+1. Load a data file containing information about the students and the scores.
+2. Display the stored data(raw data).
+3. Process the records currently loaded.
+4. Print the processed grades to a file.
+5. Search for a particular student, specified by name or ID.
+6. Add a student to the classlist.
+7. Change a students test scores.
+8. Save and exit.
+0. Exit.
+Enter a menu option here: 3
+
+Student grades processed.
+
+1. Load a data file containing information about the students and the scores.
+2. Display the stored data(raw data).
+3. Process the records currently loaded.
+4. Print the processed grades to a file.
+5. Search for a particular student, specified by name or ID.
+6. Add a student to the classlist.
+7. Change a students test scores.
+8. Save and exit.
+0. Exit.
+Enter a menu option here: 2
+
+TILLMANN,DANIEL SC999999 80 80 80 80 80 80 80 80 80 80 100 90 90 90 90 41 45 B
+
+TILLMANN,SARAH SC888888 90 90 90 90 90 90 90 90 90 90 100 85 85 85 85 45.5 42.5 B
+
+HARRISON,FORD SC111111 70 70 70 70 70 70 70 70 70 70 80 60 60 60 60 35.5 30 D
+
+COOPER,SHELDON SC000001 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 50 50 A
+
+SMITH,JANE SC222222 30 40 50 60 70 80 90 50 32 10 90 85 90 60 40 29.6 31.5 F
+
+
+1. Load a data file containing information about the students and the scores.
+2. Display the stored data(raw data).
+3. Process the records currently loaded.
+4. Print the processed grades to a file.
+5. Search for a particular student, specified by name or ID.
+6. Add a student to the classlist.
+7. Change a students test scores.
+8. Save and exit.
+0. Exit.
+Enter a menu option here: 4
+
+Enter a file name to generate Student Report: studentReport.txt
+Student report generated.
+
+1. Load a data file containing information about the students and the scores.
+2. Display the stored data(raw data).
+3. Process the records currently loaded.
+4. Print the processed grades to a file.
+5. Search for a particular student, specified by name or ID.
+6. Add a student to the classlist.
+7. Change a students test scores.
+8. Save and exit.
+0. Exit.
+Enter a menu option here: 5
+
+Do you wish to search for a name(1) or ID(2)? Enter a number: 1
+You are searching for a Name: TILLMANN,DANIEL
+Student Found!
+
+TILLMANN,DANIEL SC999999 80 80 80 80 80 80 80 80 80 80 100 90 90 90 90 41 45 B
+
+1. Load a data file containing information about the students and the scores.
+2. Display the stored data(raw data).
+3. Process the records currently loaded.
+4. Print the processed grades to a file.
+5. Search for a particular student, specified by name or ID.
+6. Add a student to the classlist.
+7. Change a students test scores.
+8. Save and exit.
+0. Exit.
+Enter a menu option here: 5
+
+Do you wish to search for a name(1) or ID(2)? Enter a number: 2
+You are searching for an ID: SC000001
+Student Found!
+
+COOPER,SHELDON SC000001 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 50 50 A
+
+1. Load a data file containing information about the students and the scores.
+2. Display the stored data(raw data).
+3. Process the records currently loaded.
+4. Print the processed grades to a file.
+5. Search for a particular student, specified by name or ID.
+6. Add a student to the classlist.
+7. Change a students test scores.
+8. Save and exit.
+0. Exit.
+Enter a menu option here: 5
+
+Do you wish to search for a name(1) or ID(2)? Enter a number: 2
+You are searching for an ID: SC000000
+***** Student Not Found *****
+
+1. Load a data file containing information about the students and the scores.
+2. Display the stored data(raw data).
+3. Process the records currently loaded.
+4. Print the processed grades to a file.
+5. Search for a particular student, specified by name or ID.
+6. Add a student to the classlist.
+7. Change a students test scores.
+8. Save and exit.
+0. Exit.
+Enter a menu option here: 1
+
+Enter a file name to open: data.txt
+File read successfully!
+
+1. Load a data file containing information about the students and the scores.
+2. Display the stored data(raw data).
+3. Process the records currently loaded.
+4. Print the processed grades to a file.
+5. Search for a particular student, specified by name or ID.
+6. Add a student to the classlist.
+7. Change a students test scores.
+8. Save and exit.
+0. Exit.
+Enter a menu option here: 5
+
+Do you wish to search for a name(1) or ID(2)? Enter a number: 1
+You are searching for a Name: QUINCY,ADAM
+***** Student Not Found *****
+
+1. Load a data file containing information about the students and the scores.
+2. Display the stored data(raw data).
+3. Process the records currently loaded.
+4. Print the processed grades to a file.
+5. Search for a particular student, specified by name or ID.
+6. Add a student to the classlist.
+7. Change a students test scores.
+8. Save and exit.
+0. Exit.
+Enter a menu option here: 2
+
+TILLMANN,DANIEL SC999999 80 80 80 80 80 80 80 80 80 80 100 90 90 90 90 41 45 B
+
+TILLMANN,SARAH SC888888 90 90 90 90 90 90 90 90 90 90 100 85 85 85 85 45.5 42.5 B
+
+HARRISON,FORD SC111111 70 70 70 70 70 70 70 70 70 70 80 60 60 60 60 35.5 30 D
+
+COOPER,SHELDON SC000001 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 50 50 A
+
+SMITH,JANE SC222222 30 40 50 60 70 80 90 50 32 10 90 85 90 60 40 29.6 31.5 F
+
+TILLMANN,DANIEL SC999999 80 80 80 80 80 80 80 80 80 80 100 90 90 90 90 0 0  
+
+TILLMANN,SARAH SC888888 90 90 90 90 90 90 90 90 90 90 100 85 85 85 85 0 0  
+
+
+1. Load a data file containing information about the students and the scores.
+2. Display the stored data(raw data).
+3. Process the records currently loaded.
+4. Print the processed grades to a file.
+5. Search for a particular student, specified by name or ID.
+6. Add a student to the classlist.
+7. Change a students test scores.
+8. Save and exit.
+0. Exit.
+Enter a menu option here: 7
+
+Enter an ID to change test scores: SC222222
+Student Found!
+
+SMITH,JANE SC222222 30 40 50 60 70 80 90 50 32 10 90 85 90 60 40 29.6 31.5 F
+Enter 4 test scores:100 100 100 100
+
+1. Load a data file containing information about the students and the scores.
+2. Display the stored data(raw data).
+3. Process the records currently loaded.
+4. Print the processed grades to a file.
+5. Search for a particular student, specified by name or ID.
+6. Add a student to the classlist.
+7. Change a students test scores.
+8. Save and exit.
+0. Exit.
+Enter a menu option here: 3
+
+Student grades processed.
+
+1. Load a data file containing information about the students and the scores.
+2. Display the stored data(raw data).
+3. Process the records currently loaded.
+4. Print the processed grades to a file.
+5. Search for a particular student, specified by name or ID.
+6. Add a student to the classlist.
+7. Change a students test scores.
+8. Save and exit.
+0. Exit.
+Enter a menu option here: 2
+
+TILLMANN,DANIEL SC999999 80 80 80 80 80 80 80 80 80 80 100 90 90 90 90 41 45 B
+
+TILLMANN,SARAH SC888888 90 90 90 90 90 90 90 90 90 90 100 85 85 85 85 45.5 42.5 B
+
+HARRISON,FORD SC111111 70 70 70 70 70 70 70 70 70 70 80 60 60 60 60 35.5 30 D
+
+COOPER,SHELDON SC000001 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 50 50 A
+
+SMITH,JANE SC222222 30 40 50 60 70 80 90 50 32 10 90 100 100 100 100 29.6 50 D
+
+TILLMANN,DANIEL SC999999 80 80 80 80 80 80 80 80 80 80 100 90 90 90 90 41 45 C
+
+TILLMANN,SARAH SC888888 90 90 90 90 90 90 90 90 90 90 100 85 85 85 85 45.5 42.5 B
+
+
+1. Load a data file containing information about the students and the scores.
+2. Display the stored data(raw data).
+3. Process the records currently loaded.
+4. Print the processed grades to a file.
+5. Search for a particular student, specified by name or ID.
+6. Add a student to the classlist.
+7. Change a students test scores.
+8. Save and exit.
+0. Exit.
+Enter a menu option here: 8
+
+Enter a file name to save student data: data.txt
+
+> cat data.txt
+
+TILLMANN,DANIEL SC999999 80 80 80 80 80 80 80 80 80 80 100 90 90 90 90 
+TILLMANN,SARAH SC888888 90 90 90 90 90 90 90 90 90 90 100 85 85 85 85 
+HARRISON,FORD SC111111 70 70 70 70 70 70 70 70 70 70 80 60 60 60 60 
+COOPER,SHELDON SC000001 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 
+SMITH,JANE SC222222 30 40 50 60 70 80 90 50 32 10 90 100 100 100 100 
+TILLMANN,DANIEL SC999999 80 80 80 80 80 80 80 80 80 80 100 90 90 90 90 
+TILLMANN,SARAH SC888888 90 90 90 90 90 90 90 90 90 90 100 85 85 85 85 
+> cat studentReport.txt
+
+TILLMANN,DANIEL       SC999999  80   80   80   80   80   80   80   80   80   80  100   90   90   90   90     41    45     B
+TILLMANN,SARAH        SC888888  90   90   90   90   90   90   90   90   90   90  100   85   85   85   85   45.5  42.5     B
+HARRISON,FORD         SC111111  70   70   70   70   70   70   70   70   70   70   80   60   60   60   60   35.5    30     D
+COOPER,SHELDON        SC000001 100  100  100  100  100  100  100  100  100  100  100  100  100  100  100     50    50     A
+SMITH,JANE            SC222222  30   40   50   60   70   80   90   50   32   10   90   85   90   60   40   29.6  31.5     F
+************************************************** END OF STUDENT REPORT **************************************************
+
+> 
